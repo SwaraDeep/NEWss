@@ -2,7 +2,6 @@
 $conn = new mysqli("localhost", "root", "12345", "mydb");
 $sql = "CREATE TABLE `news` (
   `idnews` int(11) NOT NULL,
-  `sl` int(11) NOT NULL,
   `imageurl` varchar(500) DEFAULT NULL,
   `title` varchar(200) NOT NULL,
   `description` varchar(2000) NOT NULL,
