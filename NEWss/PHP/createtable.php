@@ -10,6 +10,7 @@ $sql = "CREATE TABLE `news` (
   PRIMARY KEY (`idnews`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 ";
+
 if($conn->query($sql) == TRUE){
     echo "Table created successfully";
 }else {

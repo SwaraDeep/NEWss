@@ -7,6 +7,7 @@ $title = $_POST["title"];
 $description = $_POST["desc"];
 $writer = $_POST["writer"];
 $date = "Now";
+
 //$sql = "INSERT INTO news(idnews, imageurl, title, description, writer) values($id, $image, $title, $description, $writer); ";
 $sql = "insert into news(idnews, imageurl, title, description, writer) values($id,'$image','$title','$description','$writer')";
 
