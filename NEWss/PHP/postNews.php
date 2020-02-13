@@ -14,6 +14,6 @@ if($conn->query($sql) === TRUE){
     echo "Uploaded Succesfully!";
 }else{
     echo "Error while uploading: " . $conn->error;
-    echo $id . "<br>  " . $image . "\n  " . $title . "  " . $description . "  " . $writer . "  " . $date;
+    echo $id . "<br>  " . $image . "<br>  " . $title . "<br>  " . $description . "<br>  " . $writer . "<br>  " . $date;
 }
 ?>
