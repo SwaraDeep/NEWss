@@ -1,7 +1,9 @@
 <?php
 $name = $_POST["name"];
 $pass = $_POST["pass"];
-if($name === "admin" && $pass === "admin"){
+$name = sha1($name);
+$pass = sha1($pass);
+if($name === "d033e22ae348aeb5660fc2140aec35850c4da997" && $pass === "d033e22ae348aeb5660fc2140aec35850c4da997"){
     echo "Create Database:<form action='createdb.php'> <input type='submit' value='Create DB'>
 </form><br>
 Create Table:
